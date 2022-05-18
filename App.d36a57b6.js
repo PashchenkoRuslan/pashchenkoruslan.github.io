@@ -34858,8 +34858,6 @@ module.exports = "/Tyre.f04a1585.png";
 module.exports = "/Heat.1692c848.png";
 },{}],"Assets/Images/Tesla/Lock.png":[function(require,module,exports) {
 module.exports = "/Lock.82896f69.png";
-},{}],"Assets/Images/Tesla/Battery.png":[function(require,module,exports) {
-module.exports = "/Battery.0e582a33.png";
 },{}],"Slides/WideScreen/WorkSlide/ParallaxImages/TeslaImages.js":[function(require,module,exports) {
 "use strict";
 
@@ -34879,8 +34877,6 @@ var _Tyre = _interopRequireDefault(require("../../../../Assets/Images/Tesla/Tyre
 var _Heat = _interopRequireDefault(require("../../../../Assets/Images/Tesla/Heat.png"));
 
 var _Lock = _interopRequireDefault(require("../../../../Assets/Images/Tesla/Lock.png"));
-
-var _Battery = _interopRequireDefault(require("../../../../Assets/Images/Tesla/Battery.png"));
 
 var _templateObject, _templateObject2, _templateObject3, _templateObject4;
 
@@ -34914,6 +34910,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
+// import teslaBatteryImg from '../../../../Assets/Images/Tesla/Battery.png';
 var Heat = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
@@ -35002,7 +34999,7 @@ TeslaImages.propTypes = {
 };
 var _default = TeslaImages;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../../Assets/Images/Tesla/Tyre.png":"Assets/Images/Tesla/Tyre.png","../../../../Assets/Images/Tesla/Heat.png":"Assets/Images/Tesla/Heat.png","../../../../Assets/Images/Tesla/Lock.png":"Assets/Images/Tesla/Lock.png","../../../../Assets/Images/Tesla/Battery.png":"Assets/Images/Tesla/Battery.png"}],"Assets/Images/Kosen/EnglishHome.png":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../../Assets/Images/Tesla/Tyre.png":"Assets/Images/Tesla/Tyre.png","../../../../Assets/Images/Tesla/Heat.png":"Assets/Images/Tesla/Heat.png","../../../../Assets/Images/Tesla/Lock.png":"Assets/Images/Tesla/Lock.png"}],"Assets/Images/Kosen/EnglishHome.png":[function(require,module,exports) {
 module.exports = "/EnglishHome.6564ba02.png";
 },{}],"Assets/Images/Kosen/JpnHome.png":[function(require,module,exports) {
 module.exports = "/JpnHome.05334996.png";
@@ -36128,7 +36125,7 @@ var NameAndJobTitle = /*#__PURE__*/function (_Component) {
   _createClass(NameAndJobTitle, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(Name, null, "Suresh Murali"), /*#__PURE__*/_react.default.createElement(Title, null, "FRONT-END DEVELOPER & UI/UX DESIGNER"));
+      return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(Name, null, "Pashchenko Ruslan"), /*#__PURE__*/_react.default.createElement(Title, null, "FRONT-END DEVELOPER & UI/UX DESIGNER"));
     }
   }]);
 
@@ -36648,9 +36645,7 @@ TextContent.propTypes = {
 };
 var _default = TextContent;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../Assets/Responsive/breakpoints":"Assets/Responsive/breakpoints.js"}],"Assets/Images/Voistrap/Score.png":[function(require,module,exports) {
-module.exports = "/Score.6469139a.png";
-},{}],"Slides/Mobile/WorkSlide/ParallaxImages/VoistrapImages.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../Assets/Responsive/breakpoints":"Assets/Responsive/breakpoints.js"}],"Slides/Mobile/WorkSlide/ParallaxImages/VoistrapImages.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -36669,8 +36664,6 @@ var _Home = _interopRequireDefault(require("../../../../Assets/Images/Voistrap/H
 var _Meetings = _interopRequireDefault(require("../../../../Assets/Images/Voistrap/Meetings.png"));
 
 var _People = _interopRequireDefault(require("../../../../Assets/Images/Voistrap/People.png"));
-
-var _Score = _interopRequireDefault(require("../../../../Assets/Images/Voistrap/Score.png"));
 
 var _templateObject, _templateObject2, _templateObject3, _templateObject4;
 
@@ -36704,6 +36697,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
+// import voistrapScoreImg from '../../../../Assets/Images/Voistrap/Score.png';
 var VoistrapPhoneHome = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
@@ -36769,10 +36763,6 @@ var VoistrapImages = /*#__PURE__*/function (_Component) {
         src: _People.default,
         scroll: scrollPercent,
         alt: "voistrapPeople"
-      }), /*#__PURE__*/_react.default.createElement(VoistrapPhoneScore, {
-        src: _Score.default,
-        scroll: scrollPercent,
-        alt: "voistrapScore"
       }), /*#__PURE__*/_react.default.createElement(VoistrapPhoneMeetings, {
         src: _Meetings.default,
         scroll: scrollPercent,
@@ -36797,7 +36787,7 @@ VoistrapImages.propTypes = {
 };
 var _default = VoistrapImages;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../../Assets/Images/Voistrap/Home.png":"Assets/Images/Voistrap/Home.png","../../../../Assets/Images/Voistrap/Meetings.png":"Assets/Images/Voistrap/Meetings.png","../../../../Assets/Images/Voistrap/People.png":"Assets/Images/Voistrap/People.png","../../../../Assets/Images/Voistrap/Score.png":"Assets/Images/Voistrap/Score.png"}],"Slides/Mobile/WorkSlide/ParallaxImages/WhatsMyFoodImages.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../../Assets/Images/Voistrap/Home.png":"Assets/Images/Voistrap/Home.png","../../../../Assets/Images/Voistrap/Meetings.png":"Assets/Images/Voistrap/Meetings.png","../../../../Assets/Images/Voistrap/People.png":"Assets/Images/Voistrap/People.png"}],"Slides/Mobile/WorkSlide/ParallaxImages/WhatsMyFoodImages.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -37085,8 +37075,6 @@ var _Heat = _interopRequireDefault(require("../../../../Assets/Images/Tesla/Heat
 
 var _Lock = _interopRequireDefault(require("../../../../Assets/Images/Tesla/Lock.png"));
 
-var _Battery = _interopRequireDefault(require("../../../../Assets/Images/Tesla/Battery.png"));
-
 var _templateObject, _templateObject2, _templateObject3, _templateObject4;
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -37119,6 +37107,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
+// import teslaBatteryImg from '../../../../Assets/Images/Tesla/Battery.png';
 var Heat = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
@@ -37183,10 +37172,6 @@ var TeslaImages = /*#__PURE__*/function (_Component) {
         src: _Lock.default,
         scroll: scrollPercent,
         alt: "teslaLock"
-      }), /*#__PURE__*/_react.default.createElement(Battery, {
-        src: _Battery.default,
-        scroll: scrollPercent,
-        alt: "teslaBattery"
       }), /*#__PURE__*/_react.default.createElement(Tyre, {
         src: _Tyre.default,
         scroll: scrollPercent,
@@ -37211,7 +37196,7 @@ TeslaImages.propTypes = {
 };
 var _default = TeslaImages;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../../Assets/Images/Tesla/Tyre.png":"Assets/Images/Tesla/Tyre.png","../../../../Assets/Images/Tesla/Heat.png":"Assets/Images/Tesla/Heat.png","../../../../Assets/Images/Tesla/Lock.png":"Assets/Images/Tesla/Lock.png","../../../../Assets/Images/Tesla/Battery.png":"Assets/Images/Tesla/Battery.png"}],"Slides/Mobile/WorkSlide/ParallaxImages/KosenImages.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../../Assets/Images/Tesla/Tyre.png":"Assets/Images/Tesla/Tyre.png","../../../../Assets/Images/Tesla/Heat.png":"Assets/Images/Tesla/Heat.png","../../../../Assets/Images/Tesla/Lock.png":"Assets/Images/Tesla/Lock.png"}],"Slides/Mobile/WorkSlide/ParallaxImages/KosenImages.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -37656,22 +37641,6 @@ var ImageContent = /*#__PURE__*/function (_Component) {
         scrollPercent: scrollPercent,
         screenHeight: screenHeight,
         scrollHeight: scrollHeight
-      })), /*#__PURE__*/_react.default.createElement(ImageBox, {
-        height: boxHeight
-      }, /*#__PURE__*/_react.default.createElement(_KosenImages.default, {
-        boxHeight: boxHeight,
-        index: 5,
-        scrollPercent: scrollPercent,
-        screenHeight: screenHeight,
-        scrollHeight: scrollHeight
-      })), /*#__PURE__*/_react.default.createElement(ImageBox, {
-        height: boxHeight
-      }, /*#__PURE__*/_react.default.createElement(_VoistrapWebImages.default, {
-        boxHeight: boxHeight,
-        index: 6,
-        scrollPercent: scrollPercent,
-        screenHeight: screenHeight,
-        scrollHeight: scrollHeight
       })));
     }
   }]);
@@ -37763,34 +37732,28 @@ var Work = /*#__PURE__*/function (_Component) {
       roles: ['']
     }, {
       number: '01',
-      projectName: 'Voistrap',
-      projectDesc: 'IoT project to give workplace insights using indoor localization, voice and schedule.',
-      projectType: 'iOS APP',
+      projectName: 'Online-Shop',
+      projectDesc: 'Online store of equipment: scooters, boats and other.',
+      projectType: 'WEB design + WEB development',
       roles: ['Full Stack Developer', 'UI Designer']
     }, {
       number: '02',
       projectName: 'WhatsMyFood',
       projectDesc: 'iOS app to remember your fav food at each restaurant you eat.',
-      projectType: 'iOS APP',
+      projectType: 'WEB design + WEB development APP',
       roles: ['Front-end Developer', 'UI Designer']
     }, {
       number: '03',
-      projectName: 'ComingOrNot',
-      projectDesc: 'Event planner web app that strives to ease the work of an organizer, conduct events in a less chaotic way.',
-      projectType: 'WEB APP',
+      projectName: 'LandMark',
+      projectDesc: 'Start your adventure and start building the next greatest SAAS app on the market.',
+      projectType: 'WEB design + WEB development',
       roles: ['Front-end Developer', 'UI Designer']
     }, {
       number: '04',
-      projectName: 'Tesla app',
-      projectDesc: 'iOS app concept to control Tesla cars remotely.',
-      projectType: 'iOS APP CONCEPT',
-      roles: ['UI Designer']
-    }, {
-      number: '05',
-      projectName: 'Video portal',
-      projectDesc: 'Internal video portal to deliver news to employees all over the world.',
-      projectType: 'WEB APP',
-      roles: ['Full Stack Developer', 'UI Designer']
+      projectName: 'Irvas windows',
+      projectDesc: 'GLAZING OF TURNKEY BALCONIES IN MOSCOW.',
+      projectType: 'WEB design + WEB development',
+      roles: ['Front-end Developer', 'UI Designer']
     }, // {
     //   number: '06',
     //   projectName: 'Voistrap demo',
@@ -38348,7 +38311,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55791" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54697" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

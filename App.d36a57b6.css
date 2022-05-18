@@ -3,9 +3,12 @@ font-family: 'AvenirLight';
 src: url('/Avenir-Light-07.0f87d3ed.ttf');
 }
 
-body {
+html, body {
     overflow-x: hidden;
-}
+  }
+  body {
+    position: relative
+  }
 
 @font-face {
 font-family: 'AvenirRoman';
